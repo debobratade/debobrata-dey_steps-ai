@@ -1,0 +1,79 @@
+.mainwrapper {
+    padding: 50px;
+    max-height: 80vh; /* Adjust the height as needed */
+    overflow: hidden; /* Prevent the mainwrapper from scrolling */
+}
+
+.pdf-list {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 100%; /* Ensure the PDF list fits within the container height */
+    overflow: hidden; /* Hide overflow to allow for inner scrolling */
+}
+
+.table-container {
+    max-height: 70vh; /* Adjust based on the height you want for the scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    background-color: #007bff;
+    color: white;
+    position: sticky; /* Stick the header to the top */
+    top: 0; /* Stick it to the top */
+    z-index: 1; /* Ensure the header is above the content */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.view {
+    border-radius: 20px;
+    background-color: #08a92e;
+}
+
+button.delete {
+    border-radius: 20px;
+    background-color: #c40e21;
+}
+
+button.view:hover {
+    background-color: #218838;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}

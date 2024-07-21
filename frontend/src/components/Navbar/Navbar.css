@@ -1,0 +1,38 @@
+.custom-navbar {
+  background:transparent;
+  height: 60px;
+}
+
+.logoStyle {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-link-main {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.nav-link-main:hover {
+  background-color: rgb(255, 144, 9);
+  color: white !important;
+  border-radius: 5px;
+}
+
+.nav-link-auth {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.nav-link-auth:hover {
+  background-color: rgb(255, 144, 9);
+  color: white !important;
+  border-radius: 5px;
+}
